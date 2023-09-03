@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, 'system-ui', 'BlinkMacSystemFont', 'Segoe UI', 'Noto Sans', Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#root {
+  height: auto;
+  width: 263px;
+  margin: 92px auto auto;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}

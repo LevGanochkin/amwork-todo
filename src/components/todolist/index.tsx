@@ -5,9 +5,7 @@ import ToDoCard from '../../components/todo/card';
 import axios from 'axios';
 import { ITodo } from '../../models';
 
-interface ToDoListProps {}
-
-const ToDoList: FC<ToDoListProps> = () => {
+const ToDoList: FC = () => {
   const [todos, setTodos] = useState<ITodo[]>([]);
 
   const fetchTodos = async () => {
